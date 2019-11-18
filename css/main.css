@@ -18,9 +18,9 @@ body{
 }
 @media screen and (max-width: 680px){
     .image img{
-        padding-top: 50px; 
+        padding-top: 90px; 
     }
- }
+}
 .main{
     margin: 0 200px;
     height: auto;
@@ -29,17 +29,19 @@ body{
     .main{
         margin: 0;
     }
- }
+}
 .main-head{
     background-color:rgb(105, 127, 224);
-    padding: 20px;
+    padding: 20px; 
     height: auto;
     text-align: center;
     color: white;
 }
+.main-head h1{
+    padding-top: 0;
+}
 .bank{
-    font-size: 30px;
-    
+    font-size: 30px;  
 }
 .about{
     background-color:rgb(43, 60, 136);
@@ -50,9 +52,19 @@ body{
     line-height: 2;
     z-index: 1;
 }
+@media screen and (max-width: 680px){
+    .about{
+        word-spacing: 0,1px;
+    }
+}
 .about p{
     font-size: 26px;
 }
+@media screen and (max-width: 680px){
+    .about p{
+        font-size: 20px;
+    }
+ }
 .whynot{
     background-color:rgb(105, 127, 224);
     padding:20px;
@@ -61,6 +73,11 @@ body{
     color: white;
     line-height: 2;
     z-index: 1;
+}
+@media screen and (max-width: 680px){
+    .whynot li{
+        word-spacing: 0,1px;
+    }
 }
 .monobank{
     background-color:rgb(43, 60, 136);

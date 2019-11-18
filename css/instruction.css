@@ -35,7 +35,6 @@ input:hover{
     font-size: 12px;
     line-height: 1;
 }
-
 ul {
     list-style-type: square; 
    }
@@ -46,7 +45,6 @@ ul {
     font-size: 18px;
     line-height: 25px;
 }
-
 .image{
     list-style-type: none;
     margin-left: 0; 
@@ -56,8 +54,7 @@ ul {
     .image{
         margin-top: -40px;
     }
- }
-
+}
 #first, #first_one, #second, #eighth, #ninth, #tenth{
     display: block;
     height: auto;
@@ -67,8 +64,7 @@ ul {
     #first, #first_one, #second, #eighth, #ninth, #tenth{
         width: 72vw; 
     }
- }
- 
+}
 #third{
     display: block;
     height: auto;
@@ -88,7 +84,7 @@ ul {
     #fourth{
         width: 72vw; 
     }
- }
+}
 #fifth{
     display: block;
     height: auto;
@@ -108,7 +104,7 @@ ul {
     #sixth{
         width: 72vw; 
     }
- }
+}
 #seventh{
     display: block;
     height: auto;
@@ -118,7 +114,7 @@ ul {
     #seventh{
         width: 72vw; 
     }
- }
+}
 #m1, #m2, #m3, #m4, #m5{
     display: block;
     height: auto;
@@ -129,9 +125,6 @@ ul {
         width: 40vw; 
     }
 }
-
-
-
 footer{  
     width: auto;
     height: 50px;

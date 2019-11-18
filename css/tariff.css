@@ -6,7 +6,7 @@
     .main-tariff{
         margin: 0;
     }
- }
+}
 .image-t img{
     display: block;
     height: auto;
@@ -17,40 +17,39 @@
         padding-top: 50px; 
     }
  }
- .tariff-head{
+.tariff-head{
      display: block;
      margin-top: -400px;
      color: coral;
      text-align: center;
      font-weight: 600;
      font-size: 25px;
- }
- @media screen and (max-width: 680px){
+}
+@media screen and (max-width: 680px){
     .tariff-head{
         margin-top: -200px;
         font-size: 9px;
     }
- }
-
+}
 .nb{
     font-size: 9px;
     line-height: 1;
 }
- .first-article{
+.first-article{
      display: block;
      position: relative;
      padding: 20px;
      background-color: rgb(105, 127, 224);
      color: white;
      font-weight: 600;
- }
+}
  @media screen and (max-width: 680px){
     .first-article{
-        margin-top: 10px;
+        margin-top: -5px;
         font-size: 12px;
     }
- }
- .second-article{
+}
+.second-article{
     height: auto;
     padding: 20px;
     padding-top: 30px;
@@ -123,7 +122,6 @@ footer.tariff{
     display: inline-flex;
     flex-direction: column;  
 }
-
 .footer img{
     height: auto;
     width: 15vw; 
