@@ -68,13 +68,7 @@ ul {
         width: 72vw; 
     }
  }
- @media screen and (max-width: 1000px){
-    #first, #first_one, #second, #eighth, #ninth, #tenth{
-        width: 52vw; 
-    }
- }
-
-
+ 
 #third{
     display: block;
     height: auto;

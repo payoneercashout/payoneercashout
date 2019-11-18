@@ -31,12 +31,7 @@
         font-size: 9px;
     }
  }
- @media screen and (max-width: 1000px){
-    .tariff-head{
-        margin-top: -275px;
-        font-size: 16px;
-    }
- }
+
 .nb{
     font-size: 9px;
     line-height: 1;
