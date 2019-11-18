@@ -1,0 +1,87 @@
+@import url('menu.css');
+@import url('instruction.css');
+@import url('tariff.css');
+html { overflow-x:  hidden; }
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(216, 216, 216);
+}
+.image img{
+    display: block;
+    height: auto;
+    width: 100vw; 
+}
+@media screen and (max-width: 680px){
+    .image img{
+        padding-top: 50px; 
+    }
+ }
+.main{
+    margin: 0 200px;
+    height: auto;
+}
+@media screen and (max-width: 680px){
+    .main{
+        margin: 0;
+    }
+ }
+.main-head{
+    background-color:rgb(105, 127, 224);
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+.bank{
+    font-size: 30px;
+    
+}
+.about{
+    background-color:rgb(43, 60, 136);
+    padding:20px;
+    height: auto;
+    text-align: justify;
+    color: white;
+    line-height: 2;
+    z-index: 1;
+}
+.about p{
+    font-size: 26px;
+}
+.whynot{
+    background-color:rgb(105, 127, 224);
+    padding:20px;
+    height: auto;
+    text-align: justify;
+    color: white;
+    line-height: 2;
+    z-index: 1;
+}
+.monobank{
+    background-color:rgb(43, 60, 136);
+    padding:20px;
+    height: auto;
+    text-align: justify;
+    color: white;
+    line-height: 2;
+    z-index: 1;
+}
+.monobank a{
+    text-decoration: none;
+    color: white;
+}
+.monobank a:visited { text-decoration: none; } 
+.monobank a:active { text-decoration: none; }
+.monobank a:hover {
+    color: red;
+}
+footer{  
+    width: auto;
+    height: 50px;
+    background-color: rgb(122, 54, 54);
+}

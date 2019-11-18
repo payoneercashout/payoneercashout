@@ -1,0 +1,75 @@
+.main-menu{ 
+    display: block;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    width: 100%;
+    z-index:1 ;
+}
+@media screen and (max-width: 680px){
+    .main-menu{
+        position: fixed;
+        width: 100%;
+    }
+}
+ul.topnav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(122, 54, 54);     
+}
+@media screen and (max-width: 680px){
+    ul.topnav{
+        height: auto;
+    }
+}
+ul.topnav li{
+    float: left;
+    margin-left: 50px;
+}
+@media screen and (max-width: 680px){
+    ul.topnav li{
+        margin: 0;
+    }
+}
+ul.topnav li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 16px;
+}
+ul.topnav li a:hover{
+    background-color: rgb(82, 34, 34);
+}
+ul.topnav li.icon{
+    display: none;
+}
+@media screen and (max-width: 680px){
+    ul.topnav li:not(:first-child){display: none;}
+    ul.topnav li.icon{
+        float: right;
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 680px){
+    ul.topnav.responcive{
+        position: relative;
+    }
+    ul.topnav.responsive li.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li{
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+}

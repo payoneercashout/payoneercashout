@@ -1,0 +1,137 @@
+.main-tariff{
+    margin: 0 200px;
+    height: auto;
+}
+@media screen and (max-width: 680px){
+    .main-tariff{
+        margin: 0;
+    }
+ }
+.image-t img{
+    display: block;
+    height: auto;
+    width: 100vw; 
+}
+@media screen and (max-width: 680px){
+    .image-t img{
+        padding-top: 50px; 
+    }
+ }
+ .tariff-head{
+     display: block;
+     margin-top: -400px;
+     color: coral;
+     text-align: center;
+     font-weight: 600;
+     font-size: 25px;
+ }
+ @media screen and (max-width: 680px){
+    .tariff-head{
+        margin-top: -200px;
+        font-size: 9px;
+    }
+ }
+ @media screen and (max-width: 1000px){
+    .tariff-head{
+        margin-top: -275px;
+        font-size: 16px;
+    }
+ }
+.nb{
+    font-size: 9px;
+    line-height: 1;
+}
+ .first-article{
+     display: block;
+     position: relative;
+     padding: 20px;
+     background-color: rgb(105, 127, 224);
+     color: white;
+     font-weight: 600;
+ }
+ @media screen and (max-width: 680px){
+    .first-article{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+ }
+ .second-article{
+    height: auto;
+    padding: 20px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 2;
+    background-color: rgb(43, 60, 136);
+    font-size: 16px;
+    text-align: center;
+}
+.replenishment{
+    display: inline-flex;
+    flex-direction: column;
+    width: 260px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px 3px rgb(190, 179, 22);
+    text-align: center;
+    font-weight: 600;
+}
+.desk{
+    font-size: 12px;
+}
+.price{
+    font-size: 30px;
+    margin: 0;
+}
+.orange hr{
+    background-color:rgb(190, 179, 22);
+    height: 3px; 
+    border: none;
+}
+.third-article{
+    display: block;
+    height: auto;
+    padding: 20px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 2;
+    background-color: rgb(105, 127, 224);
+    font-size: 16px;
+    text-align: center;
+}
+.fourth-article{
+    display: block;
+    height: auto;
+    padding: 20px;
+    padding-top: 30px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    line-height: 2;
+    background-color:  rgb(43, 60, 136);
+    font-size: 16px;
+    text-align: center;
+}
+footer.tariff{
+    background-color: rgb(122, 54, 54);
+    height: auto; 
+    text-align: center;
+}
+.footer{
+    display: inline-flex;
+    flex-direction: column;  
+}
+
+.footer img{
+    height: auto;
+    width: 15vw; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+}

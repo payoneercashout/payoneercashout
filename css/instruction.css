@@ -1,0 +1,145 @@
+.instr_payoneer{
+    background-color: rgb(105, 127, 224);
+    margin: 0 200px;
+    width: auto;
+    height: auto;   
+}
+@media screen and (max-width: 680px){
+    .instr_payoneer{
+        margin: 0;
+    }
+ }
+h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.et{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+}
+input{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+input:hover{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.nb{
+    font-size: 12px;
+    line-height: 1;
+}
+
+ul {
+    list-style-type: square; 
+   }
+.fa-ul li{
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.image{
+    list-style-type: none;
+    margin-left: 0; 
+    margin-top: 10px;
+}
+@media screen and (max-width: 680px){
+    .image{
+        margin-top: -40px;
+    }
+ }
+
+#first, #first_one, #second, #eighth, #ninth, #tenth{
+    display: block;
+    height: auto;
+    width: 63vw; 
+}
+@media screen and (max-width: 680px){
+    #first, #first_one, #second, #eighth, #ninth, #tenth{
+        width: 72vw; 
+    }
+ }
+ @media screen and (max-width: 1000px){
+    #first, #first_one, #second, #eighth, #ninth, #tenth{
+        width: 52vw; 
+    }
+ }
+
+
+#third{
+    display: block;
+    height: auto;
+    width: 35vw;  
+}
+@media screen and (max-width: 680px){
+    #third{
+        width: 72vw; 
+    }
+ }
+#fourth{
+    display: block;
+    height: auto;
+    width: 35vw;  
+}
+@media screen and (max-width: 680px){
+    #fourth{
+        width: 72vw; 
+    }
+ }
+#fifth{
+    display: block;
+    height: auto;
+    width: 35vw; 
+}
+@media screen and (max-width: 680px){
+    #fifth{
+        width: 72vw; 
+    }
+ }
+#sixth{
+    display: block;
+    height: auto;
+    width: 35vw; 
+}
+@media screen and (max-width: 680px){
+    #sixth{
+        width: 72vw; 
+    }
+ }
+#seventh{
+    display: block;
+    height: auto;
+    width: 35vw; 
+}
+@media screen and (max-width: 680px){
+    #seventh{
+        width: 72vw; 
+    }
+ }
+#m1, #m2, #m3, #m4, #m5{
+    display: block;
+    height: auto;
+    width: 20vw; 
+}
+@media screen and (max-width: 680px){
+    #m1, #m2, #m3, #m4, #m5{
+        width: 40vw; 
+    }
+}
+
+
+
+footer{  
+    width: auto;
+    height: 50px;
+    background-color: rgb(122, 54, 54);
+}
