@@ -48,6 +48,7 @@ ul.topnav li a:hover{
 ul.topnav li.icon{
     display: none;
 }
+
 @media screen and (max-width: 680px){
     ul.topnav li:not(:first-child){display: none;}
     ul.topnav li.icon{

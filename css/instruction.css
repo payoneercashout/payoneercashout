@@ -1,6 +1,7 @@
 .instr_payoneer{
     background-color: rgb(105, 127, 224);
-    margin: 0 200px;
+    margin: 0;
+    padding: 25px;
     width: auto;
     height: auto;   
 }
@@ -37,7 +38,7 @@ input:hover{
 }
 ul {
     list-style-type: square; 
-   }
+}
 .fa-ul li{
     padding-right: 20px;
     padding-top: 5px;
@@ -64,7 +65,12 @@ ul {
     #first, #first_one, #second, #eighth, #ninth, #tenth{
         width: 72vw; 
     }
-}
+ }
+ @media screen and (max-width: 1000px){
+    #first, #first_one, #second, #eighth, #ninth, #tenth{
+        width: 52vw; 
+    }
+ }
 #third{
     display: block;
     height: auto;
@@ -84,7 +90,7 @@ ul {
     #fourth{
         width: 72vw; 
     }
-}
+ }
 #fifth{
     display: block;
     height: auto;
@@ -104,7 +110,7 @@ ul {
     #sixth{
         width: 72vw; 
     }
-}
+ }
 #seventh{
     display: block;
     height: auto;
@@ -114,7 +120,7 @@ ul {
     #seventh{
         width: 72vw; 
     }
-}
+ }
 #m1, #m2, #m3, #m4, #m5{
     display: block;
     height: auto;
@@ -125,6 +131,7 @@ ul {
         width: 40vw; 
     }
 }
+
 footer{  
     width: auto;
     height: 50px;

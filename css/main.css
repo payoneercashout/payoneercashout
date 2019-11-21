@@ -13,58 +13,52 @@ body{
 }
 .image img{
     display: block;
+    position: relative;
+    top: 0;
     height: auto;
     width: 100vw; 
 }
 @media screen and (max-width: 680px){
     .image img{
-        padding-top: 90px; 
+        padding-top: 50px; 
     }
-}
+ }
 .main{
-    margin: 0 200px;
+    margin: 0;
     height: auto;
 }
 @media screen and (max-width: 680px){
     .main{
         margin: 0;
     }
-}
+ }
 .main-head{
     background-color:rgb(105, 127, 224);
-    padding: 20px; 
+    padding: 25px;
     height: auto;
     text-align: center;
     color: white;
 }
 .main-head h1{
-    padding-top: 0;
+    margin-top: -50px;
 }
 .bank{
-    font-size: 30px;  
+    font-size: 30px;
+    
 }
 .about{
     background-color:rgb(43, 60, 136);
-    padding:20px;
+    padding:25px;
     height: auto;
     text-align: justify;
     color: white;
     line-height: 2;
     z-index: 1;
 }
-@media screen and (max-width: 680px){
-    .about{
-        word-spacing: 0,1px;
-    }
-}
 .about p{
-    font-size: 26px;
+    font-size: 22px;
+    text-align: left;
 }
-@media screen and (max-width: 680px){
-    .about p{
-        font-size: 20px;
-    }
- }
 .whynot{
     background-color:rgb(105, 127, 224);
     padding:20px;
@@ -73,11 +67,6 @@ body{
     color: white;
     line-height: 2;
     z-index: 1;
-}
-@media screen and (max-width: 680px){
-    .whynot li{
-        word-spacing: 0,1px;
-    }
 }
 .monobank{
     background-color:rgb(43, 60, 136);

@@ -1,12 +1,12 @@
 .main-tariff{
-    margin: 0 200px;
+    margin: 0;
     height: auto;
 }
 @media screen and (max-width: 680px){
     .main-tariff{
         margin: 0;
     }
-}
+ }
 .image-t img{
     display: block;
     height: auto;
@@ -22,15 +22,16 @@
      margin-top: -400px;
      color: coral;
      text-align: center;
-     font-weight: 600;
-     font-size: 25px;
+     font-weight: 800;
+     font-size: 22px;
 }
-@media screen and (max-width: 680px){
+ 
+@media screen and (max-width: 1000px){
     .tariff-head{
-        margin-top: -200px;
-        font-size: 9px;
+        margin-top: -230px;
+        font-size: 10px;
     }
-}
+ }
 .nb{
     font-size: 9px;
     line-height: 1;
@@ -38,18 +39,19 @@
 .first-article{
      display: block;
      position: relative;
-     padding: 20px;
+     top: 0;
+     padding: 25px;
      background-color: rgb(105, 127, 224);
      color: white;
      font-weight: 600;
-}
+ }
  @media screen and (max-width: 680px){
     .first-article{
-        margin-top: -5px;
+        margin-top: 10px;
         font-size: 12px;
     }
-}
-.second-article{
+ }
+ .second-article{
     height: auto;
     padding: 20px;
     padding-top: 30px;
@@ -122,6 +124,7 @@ footer.tariff{
     display: inline-flex;
     flex-direction: column;  
 }
+
 .footer img{
     height: auto;
     width: 15vw; 
