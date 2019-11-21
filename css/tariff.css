@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 680px){
     .image-t img{
-        padding-top: 50px; 
+        padding-top: 45px; 
     }
  }
 .tariff-head{
@@ -29,7 +29,7 @@
 @media screen and (max-width: 850px){
     .tariff-head{
         margin-top:-65px;
-        font-size: 12px;
+        font-size: 14px;
         background-color: rgb(43, 60, 136);
         padding: 20px;
         margin-bottom: -10px;
@@ -43,7 +43,7 @@
      display: block;
      position: relative;
      top: 0;
-     padding: 25px;
+     padding: 20px;
      background-color: rgb(105, 127, 224);
      color: white;
      font-weight: 600;
@@ -51,13 +51,17 @@
  @media screen and (max-width: 680px){
     .first-article{
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 14px;
+    }
+ }
+ @media screen and (max-width: 680px){
+    h2{
+        font-size: 19px;
     }
  }
  .second-article{
     height: auto;
     padding: 20px;
-    padding-top: 30px;
     font-weight: 600;
     color: white;
     letter-spacing: 0.5px;
@@ -78,6 +82,11 @@
     text-align: center;
     font-weight: 600;
 }
+@media screen and (max-width: 680px){
+    .replenishment{
+        width: 200px;
+    }
+ }
 .desk{
     font-size: 12px;
 }
@@ -94,7 +103,6 @@
     display: block;
     height: auto;
     padding: 20px;
-    padding-top: 30px;
     font-weight: 600;
     color: white;
     letter-spacing: 0.5px;
@@ -108,7 +116,6 @@
     display: block;
     height: auto;
     padding: 20px;
-    padding-top: 30px;
     font-weight: 600;
     color: white;
     letter-spacing: 0.5px;

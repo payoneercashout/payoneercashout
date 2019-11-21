@@ -11,7 +11,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(216, 216, 216);
 }
-.image img{
+.image-m img{
     display: block;
     position: relative;
     top: 0;
@@ -19,8 +19,8 @@ body{
     width: 100vw; 
 }
 @media screen and (max-width: 680px){
-    .image img{
-        padding-top: 80px; 
+    .image-m img{
+        padding-top: 40px; 
     }
  }
 .main{
@@ -41,6 +41,7 @@ body{
 }
 .main-head h1{
     margin-top: -50px;
+    font-size: 24px;
 }
 .bank{
     font-size: 30px;
@@ -56,7 +57,7 @@ body{
     z-index: 1;
 }
 .about p{
-    font-size: 22px;
+    font-size: 20px;
     text-align: left;
 }
 .whynot{
