@@ -26,10 +26,13 @@
      font-size: 22px;
 }
  
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 850px){
     .tariff-head{
-        margin-top: -230px;
-        font-size: 10px;
+        margin-top:-65px;
+        font-size: 12px;
+        background-color: rgb(43, 60, 136);
+        padding: 20px;
+        margin-bottom: -10px;
     }
  }
 .nb{

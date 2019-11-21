@@ -1,7 +1,7 @@
 .instr_payoneer{
     background-color: rgb(105, 127, 224);
     margin: 0;
-    padding: 25px;
+    padding: 10px;
     width: auto;
     height: auto;   
 }
@@ -16,17 +16,29 @@ h1{
     padding-left: 20px;
     padding-right: 20px;
 }
+@media screen and (max-width: 680px){
+    .instr_payoneer h1{
+        font-size: 20px;
+    }
+ }
 .et{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 12px;
 }
 input{
-    width: 300px;
+    width: 250px;
     height: 50px;
-    font-size: 25px;
+    font-size: 22px;
     cursor: pointer;
 }
+@media screen and (max-width: 680px){
+    input{
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+ }
 input:hover{
     border: none;
     background-color: rgb(255, 255, 255);
@@ -53,7 +65,7 @@ ul {
 }
 @media screen and (max-width: 680px){
     .image{
-        margin-top: -40px;
+        margin-top: -80px;
     }
 }
 #first, #first_one, #second, #eighth, #ninth, #tenth{
@@ -63,14 +75,10 @@ ul {
 }
 @media screen and (max-width: 680px){
     #first, #first_one, #second, #eighth, #ninth, #tenth{
-        width: 72vw; 
+        width: 71vw; 
     }
  }
- @media screen and (max-width: 1000px){
-    #first, #first_one, #second, #eighth, #ninth, #tenth{
-        width: 52vw; 
-    }
- }
+ 
 #third{
     display: block;
     height: auto;
